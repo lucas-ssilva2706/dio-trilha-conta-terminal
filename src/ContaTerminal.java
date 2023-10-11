@@ -7,12 +7,14 @@ public class ContaTerminal {
 
         System.out.println("Por gentileza, insira o número da conta: ");
         int numeroConta = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Por gentileza, inserir o número da agência: ");
         String numeroAgencia = scanner.next();
+        scanner.nextLine();
 
         System.out.println("Informe seu nome: ");
-        String nomeCliente = scanner.next();
+        String nomeCliente = scanner.nextLine();
 
         System.out.println("Digite seu saldo atual: ");
         double saldoCliente = scanner.nextDouble();
